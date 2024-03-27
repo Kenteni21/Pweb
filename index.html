@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teste de Seletores</title>
+    <link rel="stylesheet" type="text/css" href="coisinhas.css">
+</head>
+<body>
+    <h1 id="titulo" onclick="mudarCorTitulo()">Clique aqui para mudar minha cor</h1>
+
+    <input type="text" name="campoTexto" value="Passe o mouse aqui para mudar meu texto" onmouseover="mudarTexto()">
+    <br>
+    <p class="classeTeste" onmouseover="aumentarFonte()">Passe o mouse aqui para aumentar minha fonte</p>
+    <br>
+    <p class="classeTeste" onmouseover="aumentarFonte()">Passe o mouse aqui para aumentar minha fonte</p>
+
+    <div onclick="mudarCorFundo()">Clique aqui para mudar minha cor de fundo</div>
+
+    <div ondblclick="adicionarBorda()">Clique duas vezes aqui para adicionar uma borda</div>
+
+    <script src="coisinhas.js"></script>
+</body>
+</html>
